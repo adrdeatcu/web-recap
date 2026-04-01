@@ -1,0 +1,58 @@
+.header { 
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.header .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo { 
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+}
+
+.img-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+}
+
+.sign-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.plchold-img {
+    border: #3882F6 solid;
+    width: 120px;
+    height: 120px;
+}
+
+.sec-images{ 
+    display: flex;
+}
