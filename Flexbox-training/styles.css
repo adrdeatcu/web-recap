@@ -1,30 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 .header { 
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
     flex: 1;
+    padding: 80px;
 }
 
 .header .main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-top: 80px;
     
 }
 
 .header a {
+    margin-top: -70px;
     font-size: 18px;
     color: #E5E7EB;
+    flex: 1;
 }
 
 .header .sec-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -20px;
 }
 
 .header .logo { 
     font-size: 24px;
     color: #F9FAF8;
+    margin-top: -60px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
 }
 
 .links {
@@ -35,24 +64,124 @@
     width: 300px;
     height: 200px;
     background-color: grey;
+   
+    
 }
 
 .sign-btn {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 15px;
+    border-radius: 10px;
+    border: #3882F6 solid 2px;
+    padding: 5px 20px;
 }
 
 .second-content {
     display: flex;
     flex-direction: column;
+    padding: 100px;
+}
+
+.second-content h3 {
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: -50px;
 }
 
 .plchold-img {
     border: #3882F6 solid;
     width: 120px;
     height: 120px;
+    border-radius: 15px;
 }
 
-.sec-images{ 
+.content {
+    flex-grow: 1;
+}
+
+.sec-images {
     display: flex;
+    justify-content: center;
+    
+}
+
+.quote-sec {
+    background-color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#quote-text {
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#quote-ath {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: -40px;
+    
+    
+}
+.call {
+    padding: 70px 150px;
+}
+
+.call-card {
+    background-color: #3882F6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call-left h3 {
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: -15px;
+}
+
+.call-left p {
+    color: #F9FAF8;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-btn2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    
+}
+
+footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
 }
