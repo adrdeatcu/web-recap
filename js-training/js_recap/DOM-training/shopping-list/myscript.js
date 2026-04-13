@@ -1,4 +1,7 @@
 function addItemInList(e) {
+    function deleteItemFromList(e) {
+        itemsList.removeChild(newListItem);
+    }
     e.preventDefault();
     let newListItem = document.createElement("li");
     let value = inputText.value;
@@ -6,12 +9,12 @@ function addItemInList(e) {
     let deleteButton = document.createElement("button");
     deleteButton.textContent = "DELETE";
     deleteButton.classList.toggle("deleteButton");
+    deleteButton.addEventListener("click" , deleteItemFromList);
     newListItem.appendChild(deleteButton);
     itemsList.appendChild(newListItem);
     inputText.value = "";
-
+    inputText.focus();
 }
-
 
 
 const addItemButton = document.querySelector("#formButton");
