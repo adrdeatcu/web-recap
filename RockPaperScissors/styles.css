@@ -8,13 +8,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    background-color: #285A48;
+}
+
+h1 {
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 60px;
 }
 
 #buttonsDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 50px;
+    gap: 30px;
 }
 
 #roundText {
@@ -23,7 +31,33 @@ body {
     align-items: center;
 }
 
+.gameButton {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: #B0E4CC;
+    border-radius: 50px;
+    font-size: 30px;
+    border: 5px solid black;
+}
+
+#roundResult {
+    font-size: 40px;
+    color: #B0E4CC;
+    margin-bottom: 10px;
+}
+
+#score {
+    font-size: 30px;
+    color: #B0E4CC;
+    margin-bottom: 10px;
+}
+
 .resetButton {
-    color: white;
-    background-color: green;
+    height: 60px;
+    width: 140px;
+    color: black;
+    background-color: #B0E4CC;
+    border: 5px solid black;
+    border-radius: 30px;
 }
