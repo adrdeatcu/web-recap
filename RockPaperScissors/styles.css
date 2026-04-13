@@ -16,3 +16,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+#roundText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resetButton {
+    color: white;
+    background-color: green;
+}
