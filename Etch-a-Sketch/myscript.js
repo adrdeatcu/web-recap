@@ -41,6 +41,9 @@ function randomColor() {
 
 gridSize.addEventListener("click" , () => {
     let gridSizeInput = Number(prompt("Enter a grid number: maximum 64(64x64)"));
+    while(gridSizeInput > 64) {
+        gridSizeInput = Number(prompt("Enter a grid number: maximum 64(64x64)"));
+    }
     container.textContent = '';
     createGrid(gridSizeInput);
 });
