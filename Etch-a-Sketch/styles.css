@@ -7,17 +7,29 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #FFE8CD;
+}
+
+#pageTitle {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 60px;
+
 }
 
 #mainContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-left: 60px;
 }
 
 #buttonsSection {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+    gap: 30px;
 }
 
 #container {
@@ -29,11 +41,20 @@ body {
     height: 706px;
 }
 
+.menuBtn {
+    padding: 30px;
+    font-size: 13px;
+    background-color: #FFD6BA;
+    border-radius: 50px;
+    font-style: italic;
+    
+}
+
 .gridBox {
     border: 3px solid black;
-    background-color: white;
+    background-color: #FFDCDC;
 }
 
 #resetBox {
-    background-color: white;
+    background-color: #FFDCDC;
 }

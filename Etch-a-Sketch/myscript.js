@@ -58,7 +58,7 @@ resetBtn.addEventListener("click", () =>{
     let allGridBoxes = document.querySelectorAll(".gridBox");
     for (let i = 0; i < allGridBoxes.length; i++) {
         let box = allGridBoxes[i];
-        box.style.backgroundColor = "white";
+        box.style.backgroundColor = "#FFDCDC";
     }
         
 });
