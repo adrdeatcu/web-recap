@@ -26,11 +26,13 @@ body {
     flex-wrap: wrap;
     width: 706px;
     height: 706px;
-
-    
-    
 }
 
 .gridBox {
     border: 3px solid black;
+    background-color: white;
+}
+
+#resetBox {
+    background-color: white;
 }
