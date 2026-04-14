@@ -4,13 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainContent {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonsSection {
+    display: flex;
+    flex-direction: column;
+}
+
 #container {
     border: 3px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 326px;
-    margin: 0 auto;
+    
     
 }
 

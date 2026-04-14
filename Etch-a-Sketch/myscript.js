@@ -4,8 +4,8 @@ function createGrid() {
     for(let i=1; i<=256; i++) {
         let newDiv = document.createElement("div");
         newDiv.classList.add("gridBox");
-        newDiv.addEventListener("mouseenter", () =>{
-            colorOnEnter(newDiv);
+        newDiv.addEventListener("mouseenter", (e) =>{
+            e.target.style.backgroundColor = "black";
         });
         container.appendChild(newDiv);
     }
